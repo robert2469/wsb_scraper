@@ -5,7 +5,11 @@ scrapes WSB for top 5 stocks each week. Keeps track of previous week's top 5. If
 Files:
 
 list1.csv, list2.csv, list3.csv: CSV files for list of tickers
+
 toBuy: output of stocks to buy
+
 toSell: output of stocks to sell
+
 prev: previous week's top 5 stocks
+
 main: central python script
