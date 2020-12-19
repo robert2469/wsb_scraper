@@ -6,7 +6,7 @@ import pandas as pd
 def get_tickers():
     reddit = praw.Reddit(
         client_id="AxCFhEWHVRTT3g",
-        client_secret="juy_lbJ8ZYT1a_cusVYwidU22nvfwQ",
+        client_secret=REDDIT_SECRET,
         user_agent="WSB Scraping",
     )
     to_buy = []
