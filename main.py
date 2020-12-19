@@ -2,11 +2,11 @@
 import praw
 import re
 import pandas as pd
-
+import config
 def get_tickers():
     reddit = praw.Reddit(
-        client_id="AxCFhEWHVRTT3g",
-        client_secret=REDDIT_SECRET,
+        client_id= config.api_id,
+        client_secret= config.api_secret,
         user_agent="WSB Scraping",
     )
     to_buy = []
